@@ -1,0 +1,94 @@
+{
+  "officialEntries": [
+    {
+      "name": "sentry",
+      "title": "Sentry",
+      "description": "This service provides a Model Context Provider (MCP) for interacting with Sentry's API.",
+      "icon": "sentry.svg",
+      "homepage": "https://mcp.sentry.dev/",
+      "configuration": {
+        "type": "sse",
+        "url": "https://mcp.sentry.dev/sse",
+        "headers": {}
+      }
+    },
+    {
+      "name": "thena",
+      "title": "Thena",
+      "description": "A Model Context Protocol server that enables AI assistants to interact with Thena's services, providing seamless integration and enhanced capabilities for AI-powered applications.",
+      "icon": "thena.svg",
+      "homepage": "https://thena.ai",
+      "configuration": {
+        "type": "sse",
+        "url": "https://mcp.thena.ai/sse",
+        "headers": {}
+      }
+    },
+    {
+      "name": "nuxt",
+      "title": "Nuxt",
+      "description": "Access Nuxt documentation and modules with the public Nuxt MCP server",
+      "icon": "nuxt.svg",
+      "homepage": "https://mcp.nuxt.com/",
+      "configuration": {
+        "type": "sse",
+        "url": "https://mcp.nuxt.space/sse",
+        "headers": {}
+      }
+    },
+    {
+      "name": "square",
+      "title": "Square",
+      "description": "This project follows the Model Context Protocol standard, allowing AI assistants to interact with Square's connect API.",
+      "icon": "square.svg",
+      "homepage": "https://github.com/square/square-mcp-server",
+      "configuration": {
+        "type": "sse",
+        "url": "https://mcp.squareup.com/sse",
+        "headers": {}
+      }
+    },
+    {
+      "name": "zapier",
+      "title": "Zapier MCP",
+      "description": "Connect your AI assistant to over 7,000+ apps and 30,000+ actions without complex API integrations. Zapier MCP gives your AI direct access to real-world actions across essential business tools like Slack, Google Workspace, HubSpot, and thousands more.",
+      "icon": "https://cdn.zapier.com/storage/services/6d8e4e981c86b3f96bebc654a6c64f1f.png",
+      "homepage": "https://zapier.com/mcp",
+      "configuration": {
+        "type": "sse",
+        "url": "",
+        "headers": {}
+      }
+    },
+    {
+      "name": "mayar",
+      "title": "Mayar MCP Server",
+      "description": "Powerful Model Context Protocol server for seamless payment processing, customer management, and transaction handling integration. Provides 17 tools across 6 categories including invoice management, customer management, transaction tracking, and membership management.",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjS6KYawqvP4IGuThT9wJ8XhQQmb7OwLxf9g&s",
+      "homepage": "https://mcp.mayar.id/",
+      "configuration": {
+        "type": "sse",
+        "url": "https://mcp.mayar.id/sse",
+        "headers": {
+          "Authorization": "YOUR_MAYAR_API_KEY"
+        }
+      }
+    }
+  ],
+  "communityEntries": [
+    {
+      "name": "discord",
+      "title": "Discord",
+      "description": "A Model Context Protocol (MCP) server for the Discord API (JDA), allowing seamless integration of Discord Bot with MCP-compatible applications like Claude Desktop. Enable your AI assistants to seamlessly interact with Discord. Manage channels, send messages, and retrieve server information effortlessly. Enhance your Discord experience with powerful automation capabilities.",
+      "icon": "https://svgl.app/library/discord.svg",
+      "homepage": "https://github.com/SaseQ/discord-mcp",
+      "configuration": {
+        "type": "sse",
+        "url": "https://gitmcp.io/SaseQ/discord-mcp",
+        "headers": {
+          "DISCORD_TOKEN": "YOUR_DISCORD_BOT_TOKEN"
+        }
+      }
+    }
+  ]
+}
