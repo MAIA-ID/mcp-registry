@@ -4,7 +4,7 @@
       "name": "sentry",
       "title": "Sentry",
       "description": "This service provides a Model Context Provider (MCP) for interacting with Sentry's API.",
-      "icon": "sentry.svg",
+      "icon": "https://raw.githubusercontent.com/getsentry/sentry/refs/heads/master/static/images/logo-sentry.svg",
       "homepage": "https://mcp.sentry.dev/",
       "configuration": {
         "type": "sse",
@@ -16,7 +16,7 @@
       "name": "thena",
       "title": "Thena",
       "description": "A Model Context Protocol server that enables AI assistants to interact with Thena's services, providing seamless integration and enhanced capabilities for AI-powered applications.",
-      "icon": "thena.svg",
+      "icon": "https://cdn.prod.website-files.com/65506ed5cbfcc76d1d76e36b/65506ed5cbfcc76d1d76e36f_Logo.svg",
       "homepage": "https://thena.ai",
       "configuration": {
         "type": "sse",
@@ -28,7 +28,7 @@
       "name": "nuxt",
       "title": "Nuxt",
       "description": "Access Nuxt documentation and modules with the public Nuxt MCP server",
-      "icon": "nuxt.svg",
+      "icon": "https://nuxt.com/assets/design-kit/icon-green.svg",
       "homepage": "https://mcp.nuxt.com/",
       "configuration": {
         "type": "sse",
@@ -40,7 +40,7 @@
       "name": "square",
       "title": "Square",
       "description": "This project follows the Model Context Protocol standard, allowing AI assistants to interact with Square's connect API.",
-      "icon": "square.svg",
+      "icon": "https://avatars.githubusercontent.com/u/82592?s=200&v=4",
       "homepage": "https://github.com/square/square-mcp-server",
       "configuration": {
         "type": "sse",
