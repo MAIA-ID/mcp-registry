@@ -49,6 +49,20 @@
       }
     },
     {
+      "name": "stripe",
+      "title": "Stripe",
+      "description": "The Stripe Model Context Protocol server provides AI agents with tools to interact with Stripe APIs and search the Stripe knowledge base, enabling seamless payment processing, customer management, and financial transaction handling.",
+      "icon": "https://images.ctfassets.net/fzn2n1nzq965/HTTOloNPhisV9P4hlMPNA/cacf1bb88b9fc492dfad34378d844280/Stripe_icon_-_square.svg",
+      "homepage": "https://docs.stripe.com/building-with-llms",
+      "configuration": {
+        "type": "sse",
+        "url": "https://mcp.stripe.com/sse",
+        "headers": {
+          "Authorization": "Bearer YOUR_STRIPE_API_KEY"
+        }
+      }
+    },
+    {
       "name": "zapier",
       "title": "Zapier MCP",
       "description": "Connect your AI assistant to over 7,000+ apps and 30,000+ actions without complex API integrations. Zapier MCP gives your AI direct access to real-world actions across essential business tools like Slack, Google Workspace, HubSpot, and thousands more.",
