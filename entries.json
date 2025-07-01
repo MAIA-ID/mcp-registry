@@ -73,6 +73,18 @@
           "Authorization": "YOUR_MAYAR_API_KEY"
         }
       }
+    },
+    {
+      "name": "financialdatasets",
+      "title": "Financial Datasets",
+      "description": "Model Context Protocol server offering access to a broad range of financial datasets.",
+      "icon": "https://raw.githubusercontent.com/super285915/Financialdatasets_AI/main/public/images/demo-thumbnail.png",
+      "homepage": "https://docs.financialdatasets.ai/mcp-server",
+      "configuration": {
+        "type": "sse",
+        "url": "https://docs.financialdatasets.ai/mcp-server/sse",
+        "headers": {}
+      }
     }
   ],
   "communityEntries": [
